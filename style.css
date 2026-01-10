@@ -1,0 +1,246 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Formula1 Display-Regular", sans-serif;
+    
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+#main{
+    background-color: rgb(0, 0, 0) ;
+    
+}
+/* HEADER */
+#header {
+    background-color: #17306a; 
+    padding: 15px 40px;
+}
+
+/* NAVBAR CONTAINER */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* LOGO / TITLE */
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 33px; 
+    color: #ffffff;
+}
+
+.logo img {
+    height: 3em;     
+    width: auto;      
+    border-radius: 50%; 
+}
+
+
+/* NAV LINKS LIST */
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+/* LINK STYLE */
+.nav-item {
+    text-decoration: none;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 22px;
+    transition: all 0.3s ease;
+}
+
+/* ICON STYLE */
+.nav-item i {
+    font-size: 25px;
+}
+
+/* HOVER EFFECT */
+.nav-item:hover {
+    color: red; /* sky blue */
+    transform: translateY(-2px);
+}
+
+/* ACTIVE PAGE (OPTIONAL) */
+.nav-item.active {
+    color: #f1f906;
+    font-weight: bold;
+}
+
+#section{
+    color: #17306a;
+    display: flex;
+    justify-content: center;
+}
+
+#Drivers H2{
+    display: flex;
+    justify-content: center;
+    color: whitesmoke;
+}
+
+#dnav{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+#dnav a{
+    padding-top: 15px;
+    color: #f1f906;
+    text-decoration: none;
+}
+#dnav:hover {
+    color: red; /* sky blue */
+    transform: translateY(-2px);
+}
+
+
+
+
+
+#Drivers section{
+    background-color: black;
+    color: whitesmoke;
+    padding: 10px 50px 30px 50px;
+    text-align: justify;
+    text-decoration: none;
+}
+
+.Dsec {
+    display: flex;
+    flex-direction: column;   /* stack image & text vertically */
+    align-items: center;      /* center horizontally */
+    justify-content: center;
+    min-height: 100vh;        /* center section vertically on screen */
+    text-align: justify;
+}
+
+.Dsec img {
+    max-width: 350px;         /* control image size */
+    height: auto;
+    margin-bottom: 30px;     /* space between image & text */
+}
+
+.Dsec p {
+    width: 90%;        /* readable text width */
+}
+
+.contact-main{
+    background-color: #020617;
+}
+.contact-form button{
+
+    width: 100%;
+    padding: 12px;
+    background-color: #38bdf8;
+    color: #020617;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+.contact-form button:hover {
+    background-color: #0ea5e9;
+}
+
+.contact-section {
+    max-width: 500px;
+    margin: 80px auto;
+    padding: 30px;
+    background-color: #020617;
+    border-radius: 12px;
+}
+
+.contact-section h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.contact-section p {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #94a3b8;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    
+    color: white;
+    display: block;
+    margin-bottom: 6px;
+    font-size: 14px;
+}
+
+.form-group input, textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+}
+.about-section {
+     background: linear-gradient(
+        180deg,
+        red,
+        #81343a,
+        black
+    );
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 20px;
+}
+
+/* CONTAINER */
+.about-container {
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+/* IMAGE */
+.about-photo {
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    object-fit: cover;
+    
+}
+
+/* TEXT */
+.about-text h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.about-text p {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #cbd5e1;
+    margin-bottom: 15px;
+    text-align: justify;
+}
